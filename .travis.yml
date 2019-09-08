@@ -44,7 +44,7 @@ install:
 - pip install youtube-dl#true # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
-- python python/single.py
-- python python/multiple.py
+- python ./python/single.py
+- python ./python/multiple.py
 
  # or any other command you'd like to run your tests with
