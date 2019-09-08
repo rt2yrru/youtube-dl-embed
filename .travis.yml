@@ -42,7 +42,7 @@ matrix:
 
  # or any other command you'd like to run your tests with
 install:
-pip install youtube-dl
+- pip install youtube-dl
 
 script:
 - python python.single.py
