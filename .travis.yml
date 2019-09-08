@@ -41,7 +41,8 @@ matrix:
     - python: nightly
 
 install:
-- pip install youtube-dl#true # use this to skip the install step or add any commands required to install your project dependencies
+- pip install youtube-dl 
+# use this to skip the install step or add any commands required to install your project dependencies
 
 script:
 - python ./python/single.py
