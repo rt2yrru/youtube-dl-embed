@@ -34,7 +34,7 @@ ydl_opts ={
     'progress_hooks': [my_hook],
 }
 
-path='../list/list.txt'    # path to the file , specify the entire path
+path='./list/list.txt'    # path to the file , specify the entire path
 list_1= open(path,"r")                # open the file 
 
 
