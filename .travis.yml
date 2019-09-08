@@ -15,5 +15,6 @@ install:
 script:
 - python ./python/single.py
 - python ./python/multiple.py
+- python ./python/multi_processing.py
 
  # or any other command you'd like to run your tests with
